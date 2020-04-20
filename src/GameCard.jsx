@@ -26,25 +26,21 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-export default function JackboxIndex() {
+export default function JackboxIndex(props) {
 
     const classes = useStyles();
+    const game = props.game;
 
     return (
         <Card className={classes.card}>
             <CardMedia
                 className={classes.cardMedia}
-                image={ydkj2015}
-                title="You Don't Know Jack 2015"
+                image={game.image}
+                title={game.title}
             />
             <CardContent className={classes.cardContent}>
-                <Typography gutterBottom variant="h5" component="h2">
-                    You Don't Know Jack 2015
-                </Typography>
-                <Typography>
-                    The comedy trivia sensation returns with hundreds of new questions that you can
-                    tackle on a night in by yourself or when you’re joined by friends.
-                </Typography>
+                <Typography gutterBottom variant="h5" component="h2">{game.title}</Typography>
+                <Typography>{game.description}</Typography>
             </CardContent>
             <Box px={3} pb={3}>
                 <Grid container spacing={1}>
