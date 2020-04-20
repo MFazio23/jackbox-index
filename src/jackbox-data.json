@@ -1,0 +1,33 @@
+[
+  {
+    "id": "ydkj2015",
+    "pack": 1,
+    "title": "You Don't Know Jack 2015",
+    "description": "The comedy trivia sensation returns with hundreds of new questions that you can tackle on a night in by yourself or when you’re joined by friends.",
+    "image": "ydkj2015"
+  },
+  {
+    "id": "drawful",
+    "pack": 1,
+    "title": "Drawful",
+    "description": "The first installment of the wildly popular drawing game allows you to draw bizarre doodles on your phone or tablet."
+  },
+  {
+    "id": "lieSwatter",
+    "pack": 1,
+    "title": "Lie Swatter",
+    "description": "Need a game for a big group? Grab yourself or a crowd and play true-or-false with a timer. Don’t get swatted in this wacky fact-filled game!"
+  },
+  {
+    "id": "fibbageXL",
+    "pack": 1,
+    "title": "Fibbage XL",
+    "description": "The hilarious bluffing game now has 50% more questions added to the original hit game, Fibbage. Convince your friends that you know the answers to odd trivia questions OR aim to win the Thumbs Cup with the funniest answer."
+  },
+  {
+    "id": "wordSpud",
+    "pack": 1,
+    "title": "Word Spud",
+    "description": "Test your vocabulary chops in the racy-as-you-want-it-to-be fill-in-the-blank word game."
+  }
+]

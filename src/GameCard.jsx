@@ -1,7 +1,6 @@
 import React from 'react';
 import {makeStyles} from "@material-ui/core/styles";
 import CardMedia from "@material-ui/core/CardMedia";
-import ydkj2015 from "./images/YDKJ-2015.png";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
@@ -35,7 +34,7 @@ export default function JackboxIndex(props) {
         <Card className={classes.card}>
             <CardMedia
                 className={classes.cardMedia}
-                image={game.image}
+                image={require(`./images/${game.id}.png`)}
                 title={game.title}
             />
             <CardContent className={classes.cardContent}>
